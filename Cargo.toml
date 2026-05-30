@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 description = "Lossless and lossy compression for PLATO tile data"
 license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/plato-compress"
+homepage = "https://github.com/SuperInstance/plato-compress"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }

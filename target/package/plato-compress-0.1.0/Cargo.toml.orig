@@ -1,0 +1,10 @@
+[package]
+name = "plato-compress"
+version = "0.1.0"
+edition = "2021"
+description = "Lossless and lossy compression for PLATO tile data"
+license = "Apache-2.0"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+uuid = { version = "1", features = ["v4", "serde"] }
